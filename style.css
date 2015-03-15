@@ -2,7 +2,7 @@ html, body{
 	margin:0;
 	padding:0;
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-color: #efefef;
+	background-color: #fff;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 }
 
 h1{
-	font-size: 42px;
+	font-size: 48px;
 	color: #A60000;
 	margin: 0 auto;
 	padding-top: 15px;
@@ -58,13 +58,14 @@ h2{
 	position: absolute; 
     bottom: 0px; 
     width: 300px; 
-    height: 120px; 
+    height: 100px; 
 }
 
 #descricao {
 	font-size: 16px;
-	color: #FF7373;
+	color: #666;
 	text-align: center;
 	font-weight: 300;
 	padding:10px;
+	letter-spacing:0.05em;
 }
