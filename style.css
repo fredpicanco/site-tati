@@ -2,6 +2,7 @@ html, body{
 	margin:0;
 	padding:0;
 	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #efefef;
 }
 
 p {
@@ -11,7 +12,7 @@ p {
 }
 
 h1{
-	font-size: 54px;
+	font-size: 42px;
 	color: #A60000;
 	margin: 0 auto;
 	padding-top: 15px;
@@ -28,7 +29,7 @@ h2{
 }
 
 #main {
-	width: 100%;
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #efefef;
@@ -40,7 +41,15 @@ h2{
 	height: 90%;
 	margin: 10px 10px;
 	float: left;
-	background-color: #ccc;
+	background-color: #fff;
+}
+
+#colum_right {
+	width: 620px;
+	margin: 10px 10px;
+	float: right;
+	background-color: #fff;
+
 }
 
 #contatos {
@@ -50,4 +59,12 @@ h2{
     bottom: 0px; 
     width: 300px; 
     height: 120px; 
+}
+
+#descricao {
+	font-size: 16px;
+	color: #FF7373;
+	text-align: center;
+	font-weight: 300;
+	padding:10px;
 }

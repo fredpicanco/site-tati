@@ -1,32 +1,46 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Tati Martins</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="style.css" />
+		<link type="text/css" href="styles/bottom.css" rel="stylesheet" />
+		<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+        <script type="text/javascript" src="lib/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.pikachoose.min.js"></script>
+		<script type="text/javascript" src="ib/jquery.touchwipe.min.js"></script>
+		<script language="javascript">
+			$(document).ready(
+				function (){
+					$("#pikame").PikaChoose({carousel:true,carouselOptions:{wrap:'circular'}});
+				});
+		</script>
 </head>
 <body>
 
 <div id="main">
 	<div id="colum_left">
 		<h1>Tatiana Martins</h1>
+		<p id="descricao"> Artista Visual formada pelo Instituto de Artes da Universidade Federal do Rio Grande do Sul - UFRGS, Especialista em Museologia e arte Contemporânea e Mestre em Museologia e Patrimônio. </p>
 
 		<div id="contatos"> 
 			<h2>Contatos</h2>
 			<img src="img/icone_fb.jpg">
 		</div>
 	</div>
-
 	<div id="colum_right">
-		<p><b>Título:</b> Visões da Natureza</p>
-            <p><b>Autor:</b> Frederico Picanço</p>
-            <p>
-            <b>Descrição:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor ac ex vitae consectetur. Aliquam convallis risus erat, ac semper mauris porttitor eget. Maecenas sed ullamcorper diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu pellentesque mi. Nulla facilisi. Maecenas fringilla pellentesque suscipit. Phasellus pretium in purus nec auctor. Praesent faucibus dolor ac rhoncus tincidunt. Vivamus blandit nunc enim, et tempor velit efficitur sed. Phasellus tincidunt pulvinar urna, a facilisis diam porttitor at. Curabitur ultrices odio non turpis vestibulum bibendum.
-            </p>
-            <p>
-            Aliquam vel odio fringilla, placerat ante id, consequat purus. Sed eleifend sed leo eu ullamcorper. Mauris ornare est sit amet sapien fermentum, at elementum nibh facilisis. Pellentesque nec bibendum enim. Vivamus ut orci ligula. Suspendisse vehicula enim eget purus tincidunt dapibus. Vivamus porta enim in ligula maximus tincidunt. Praesent nunc nisl, suscipit eget tristique nec, congue nec lectus. Nam lobortis dui quis venenatis rutrum. Donec in sem urna. Suspendisse eget ullamcorper ex, ac consectetur felis. Praesent bibendum odio nec odio rutrum ornare. Maecenas finibus purus eu urna tempus porta. Quisque at magna vehicula, posuere sapien sed, accumsan justo.
-            </p>
-	</div>
 
+		<div class="pikachoose">
+		<ul id="pikame" class="jcarousel-skin-pika">
+		<li><a href="http://www.pikachoose.com"><img src="../../1.jpg"/></a><span>This is an example of the basic theme.</span></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../2.jpg"/></a><span>jCarousel is supported and can be integrated with PikaChoose!</span></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../3.jpg"/></a><span>Be sure to check out <a href="http://www.pikachoose.com">PikaChoose.com</a> for updates.</span></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../4.jpg"/></a><span>You can use any type of html you want with PikaChoose</span></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../5.jpg"/></a><span>PikaChoose survives on your donations! Keep the project alive with a donation.</span></li>
+		</ul>
+		</div>
+
+	</div>
 
 </div>
 
